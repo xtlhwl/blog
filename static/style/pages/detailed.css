@@ -1,0 +1,7 @@
+.detailed-title {
+    color: #1e90ff;
+    font-size: 1.5rem;
+    transition: all .2s;
+    font-weight: initial;
+    margin-bottom: .5rem
+}

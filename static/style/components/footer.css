@@ -1,0 +1,9 @@
+.footer-div {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #666666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    /* margin-top: 0.5rem; */
+}

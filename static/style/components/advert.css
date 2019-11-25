@@ -1,0 +1,9 @@
+.advert-main{
+    margin-left: .2rem
+}
+.advert-main div{
+    /* margin-top: 1rem */
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    overflow: hidden;
+}

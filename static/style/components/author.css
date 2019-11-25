@@ -1,0 +1,18 @@
+.author-div{
+    text-align: center;
+    padding: 1rem;
+}
+.author-introduction{
+    padding: 1rem;
+}
+.author-introduction span:first-child {
+    font-weight: 700;
+}
+.author-introduction span:not(:first-child){
+    margin:.5rem;
+    text-align: center;
+    width: 1.5rem;
+}
+.anticon svg {
+    margin: 0
+}
