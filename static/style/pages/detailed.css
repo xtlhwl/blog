@@ -5,3 +5,17 @@
     font-weight: initial;
     margin-bottom: .5rem
 }
+.detailed-left{
+    padding-left: .5rem;
+    /* margin-left: 0.8rem; */
+}
+.detailed-context{
+    padding: 1rem 1rem;
+}
+.nav-title{
+    font-size: 12px
+}
+.article-menu{
+    font-size: 8px;
+    color: #1e90ff
+}

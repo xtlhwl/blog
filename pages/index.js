@@ -1,10 +1,12 @@
 import React,{ useState } from 'react'
 import Head from 'next/head'
 import {Row, Col,List,Icon} from 'antd'
+
 import Header from '../components/Header';
 import Author from '../components/author'
 import Advert from '../components/advert'
 import Footer from '../components/footer'
+
 
 const Home = () =>{
   const [myList, setMyList] = useState(
@@ -45,6 +47,7 @@ const Home = () =>{
           <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
                 <Author></Author>
                 <Advert></Advert>
+                
           </Col>
         </Row>
         <div className="footer-context">
