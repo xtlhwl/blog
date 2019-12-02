@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import {Affix, Row, Col,Breadcrumb, Icon} from 'antd'
 import ReactMarkdown from 'react-markdown'
+import axios from 'axios'
 import MarkNav from 'markdown-navbar'
 import 'markdown-navbar/dist/navbar.css'
 import Header from '../components/Header';
@@ -104,6 +105,17 @@ const Home = () => {
           </div>
     </>
   )
+}
+Home.getInitialProps = async (context) => {
+
+  let id = context.query.id
+  const promise = new Promise((resolve) => {
+    axios('http://127.0.0.1:7001/default/getAeticleById/'+id).then((res) =>{
+      console.log('------>',res.data)
+      resolve(res.data.data[0])
+    })
+  })
+  return  await promise
 }
 export default Home
 
